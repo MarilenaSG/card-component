@@ -66,19 +66,37 @@ body section {
 }
 
 .card--title {
-    width: 85%;
+    width: 90%;
     margin-top: 30px;
 }
 
 .card--title h1 {
-    font-size: 1.6rem;
-    color: var(--white-paragraph);
+    font-size: 1.8rem;
+    color: var(--white);
     line-height: 2rem;
     font-weight: 700;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.05rem;
 }
 
 .card--title span {
     color: var(--violet);
 }
 
+.card--title p {
+    margin: 30px;
+    color: var(--white-heading);
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
+
+
+}
+
+.card-benchmarks--container {
+    margin-bottom: 30px;
+
+}
+
+.card-benchmarks--container .card-benchmarks {
+    
+}
