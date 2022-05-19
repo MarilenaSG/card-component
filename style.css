@@ -33,7 +33,6 @@ body {
 body section {
     width: 100vw;
     min-width: 375px;
-    height: 100vh;
     background-color: var(--blue-very-dark);
     display: flex;
     justify-content: center;
@@ -60,8 +59,8 @@ body section {
     border-radius: 10px 10px 0 0;
     background-color: var(--violet);
     background-image:  linear-gradient(
-        rgba(135, 10, 207, 0.5),
-        rgba(176, 18, 243, 0.5)
+        rgba(111, 0, 176, 0.5),
+        rgba(123, 0, 175, 0.5)
       )
     , url('./images/image-header-mobile.jpg');
     background-size: cover;
@@ -70,8 +69,10 @@ body section {
 }
 
 .card--title {
+
     width: 95%;
-    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 .card--title h1 {
@@ -80,7 +81,7 @@ body section {
     line-height: 2rem;
     font-weight: 700;
     letter-spacing: 0.05rem;
-    margin-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .card--title span {
@@ -88,17 +89,17 @@ body section {
 }
 
 .card--title p {
-    margin: 30px;
     color: var(--white-heading);
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.02rem;
+    padding: 0 20px 0 20px;
 
 
 }
 
 .card-benchmarks--container {
-    margin-bottom: 30px;
+
 
 }
 
@@ -114,6 +115,6 @@ body section {
     color: var(--white-heading);
     font-family: "Lexend Deca";
     letter-spacing: 0.1rem;
-    margin-top: 10px;
+    
 
 }
